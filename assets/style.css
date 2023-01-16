@@ -1,0 +1,10 @@
+@import url(../assets/reset.css);
+
+:root{
+    --background-color: #E6EFF5;
+    --card1-background-color:#FFFFFF;
+    --card2-background-color:#2AB3B1;
+    --card3-background-color:#E6EFF5;
+    --font-color-white: #FFFFFF;
+    --font-color-gray: #9AA7BE;
+}
