@@ -1,10 +1,16 @@
 @import url(../assets/reset.css);
 
-:root{
-    --background-color: #E6EFF5;
-    --card1-background-color:#FFFFFF;
-    --card2-background-color:#2AB3B1;
-    --card3-background-color:#E6EFF5;
-    --font-color-white: #FFFFFF;
-    --font-color-gray: #9AA7BE;
+:root {
+	--background-color: #e6eff5;
+	--card1-background-color: #ffffff;
+	--card2-background-color: #2ab3b1;
+	--card3-background-color: #e6eff5;
+	--font-color-white: #ffffff;
+	--font-color-gray: #9aa7be;
+}
+
+.page {
+	display: grid;
+	place-items: center;
+	background-color: var(--background-color);
 }
