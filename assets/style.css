@@ -134,3 +134,47 @@
     mix-blend-mode: normal;
     opacity: 0.75;
 }
+
+/* desktop version */
+@media (min-width:650px) {
+
+.cards-container{
+    display: grid;
+    max-width: 635px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+     "card-1 card-1"
+     "card-2 card-3"
+}
+
+.card-1{
+    grid-area: card-1;
+}
+
+.card-2{
+    grid-area: card-2;
+}
+
+.card-3{
+    grid-area: card-3;
+}
+
+.card{
+    padding: 2.5rem;
+}
+
+.card-1__title{
+    font-size: 1.5rem;
+}
+
+.card-1__generic{
+    padding: 1.5rem 0 .75rem;
+    font-size: 1.125rem;
+}
+
+.card-1__text{
+    font-size: 1rem;
+    line-height: 1.62;
+    letter-spacing: -0.2px;
+}
+}
