@@ -7,6 +7,7 @@
 	--card3-background-color: #4abfbd;  
 	--font-color-white: #ffffff;
 	--font-color-gray: #9aa7be;
+    --button-color: #C0DF33;    
 }
 
 .page {
@@ -34,15 +35,97 @@
 }
 
 .card-1__title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--card2-background-color);
+    line-height: 1.16;
+    letter-spacing: -0.25px;
+}
 
+.card-1__generic{
+    font-size: .9375rem;
+    font-weight: 700;
+    color: var(--button-color);
+    line-height: 1.33;
+    letter-spacing: -0.1875px;
+}
+
+.card-1__text{
+    font-size: .875rem;
+    color: var(--font-color-gray);
+    line-height: 1.86;
+    letter-spacing: -0.175px
 }
 
 .card-2{
     background-color: var(--card2-background-color);
+}
 
+.card-2__title{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--card1-background-color);
+    line-height: 1.17;
+    letter-spacing: -0.22px;
+}
+
+.card-2__subscription
+{
+    display: flex;
+    align-items: center;
+}
+
+.card-2__price{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--card1-background-color);
+    line-height: 1.17;
+    letter-spacing: -0.4px;
+}
+
+.card-2__period{
+    color: var(--card1-background-color);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: .75rem;
+}
+
+.card-2__text{
+    color: var(--card1-background-color);
+    line-height: 1.63;
+    letter-spacing: -0.2px;
+}
+
+.card-2__button{
+    display: inline-block;
+    width: 100%;
+    background-color: var(--button-color);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--card1-background-color);
+    font-weight: 700;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;
 }
 
 .card-3{
     background-color: var(--card3-background-color);
+}
 
+.card-3__title{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--card1-background-color);
+    line-height: 1.17;
+    letter-spacing: -0.225px;
+}
+
+.card-3__list{
+    font-size: .875rem;
+    color: var(--card1-background-color);
+    line-height: 1.43;
+    letter-spacing: -0.175px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
 }
