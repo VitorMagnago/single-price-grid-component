@@ -4,7 +4,7 @@
 	--background-color: #e6eff5;
 	--card1-background-color: #ffffff;
 	--card2-background-color: #2ab3b1;
-	--card3-background-color: #e6eff5;
+	--card3-background-color: #4abfbd;  
 	--font-color-white: #ffffff;
 	--font-color-gray: #9aa7be;
 }
@@ -13,4 +13,36 @@
 	display: grid;
 	place-items: center;
 	background-color: var(--background-color);
+    font-family: 'Karla', sans-serif;
+}
+
+.cards-container{
+    display: grid;
+    max-width: 311px;
+    border-radius: 5px;
+    overflow:hidden;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+}   
+
+.card{
+    padding: 1.5rem;
+}
+
+.card-1{
+    background-color: var(--card1-background-color);
+
+}
+
+.card-1__title{
+
+}
+
+.card-2{
+    background-color: var(--card2-background-color);
+
+}
+
+.card-3{
+    background-color: var(--card3-background-color);
+
 }
