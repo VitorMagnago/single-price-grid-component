@@ -11,6 +11,7 @@
 }
 
 .page {
+    min-height: 100vh;
 	display: grid;
 	place-items: center;
 	background-color: var(--background-color);
@@ -48,6 +49,7 @@
     color: var(--button-color);
     line-height: 1.33;
     letter-spacing: -0.1875px;
+    padding: 1.5rem 0 1rem;
 }
 
 .card-1__text{
@@ -73,6 +75,7 @@
 {
     display: flex;
     align-items: center;
+    padding: 1.125rem 0 .25rem;
 }
 
 .card-2__price{
@@ -88,12 +91,13 @@
     mix-blend-mode: normal;
     opacity: 0.5;
     padding-left: .75rem;
-}
+ }
 
 .card-2__text{
     color: var(--card1-background-color);
     line-height: 1.63;
     letter-spacing: -0.2px;
+    padding-bottom: 1.625rem;
 }
 
 .card-2__button{
@@ -119,6 +123,7 @@
     color: var(--card1-background-color);
     line-height: 1.17;
     letter-spacing: -0.225px;
+    padding-bottom: 1.125rem;
 }
 
 .card-3__list{
